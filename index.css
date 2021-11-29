@@ -1,0 +1,52 @@
+.navbar {
+    background-color: rgb(27, 3, 65);
+    width: 100%;
+    margin: -16px 0px 20px 0px;
+    padding: 2px 0px 1px 0px;
+}
+.navbar ul {
+    overflow: hidden;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+}
+li, a {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    color: red
+}
+.search {
+    float: right;
+    color: white;
+    padding: 9px 17px 0px 0px;
+}
+input {
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 200px;
+    padding: 4px 0px 3px 16px;
+
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(235, 234, 232);
+}
+table,th{
+    text-align: center;
+}
+table, td {
+    font-weight: bold;
+    text-align: right;
+   padding: 10px 0px 5px 0px;
+}
